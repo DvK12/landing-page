@@ -12,7 +12,8 @@ body {
 .header,
 .hero-section,
 .information-section,
-.information-container {
+.information-container,
+.quote-section {
   padding: 0 392px;
   display: flex;
   justify-content: space-between;
@@ -104,6 +105,7 @@ img {
   font-weight: 800;
   color: #1f2937;
   margin: 60px 0;
+  text-align: center;
 }
 .information-container {
   flex-direction: column;
@@ -114,3 +116,24 @@ img {
   text-align: center;
   color: black;
 }
+
+.quote-section {
+  background-color: #e5e7eb;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top:132px;
+  padding-bottom:132px;
+}
+
+.quote-author {
+  align-self: flex-end;
+  font-weight: bolder;
+  font-size: 24px;
+}
+.quote-text { 
+font-size:36px;
+font-style: italic;
+font-weight:lighter;
+color:#1f2837;
+} /*
