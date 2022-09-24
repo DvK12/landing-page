@@ -13,7 +13,8 @@ body {
 .hero-section,
 .information-section,
 .information-container,
-.quote-section {
+.quote-section,
+.action-section {
   padding: 0 392px;
   display: flex;
   justify-content: space-between;
@@ -27,7 +28,8 @@ body {
 }
 .header.links,
 .secondary-text,
-.information-text {
+.information-text,
+.footer {
   font-size: 18px;
   color: #e5e7eb;
   margin: 0;
@@ -44,7 +46,9 @@ ul li {
 }
 
 .footer {
-  color: red;
+  text-align: center;
+  padding: 24px;
+  font-size: 18px;
 }
 img {
   width: 500px;
@@ -69,7 +73,7 @@ img {
 .hero-section {
   align-items: stretch;
 }
-.hero-signup {
+.button-signup {
   background-color: #3882f6;
   color: white;
   font-size: 18px;
@@ -122,8 +126,8 @@ img {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top:132px;
-  padding-bottom:132px;
+  padding-top: 132px;
+  padding-bottom: 132px;
 }
 
 .quote-author {
@@ -131,9 +135,34 @@ img {
   font-weight: bolder;
   font-size: 24px;
 }
-.quote-text { 
-font-size:36px;
-font-style: italic;
-font-weight:lighter;
-color:#1f2837;
-} /*
+.quote-text {
+  font-size: 36px;
+  font-style: italic;
+  font-weight: lighter;
+  color: #1f2837;
+}
+.action-section {
+  flex-direction: column;
+  background-color: #fff;
+}
+.background-action {
+  margin: 64px;
+  width: 100%;
+  background-color: #3882f6;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+  padding: 42px 0px;
+}
+.action-title {
+  font-weight: 700;
+  font-size: 18px;
+}
+.action-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.button-signup.button-section {
+  border: 2px solid white;
+}
